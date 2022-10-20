@@ -19,8 +19,10 @@ const player1 = Object.create(character, {
 })
 
 const player2 = Object.create(character, {
-    name: {value: 'player 2',
-writable: true}
+    name: {
+        value: 'player 2',
+        writable: true
+    }
 })
 
 player1.changeName('alfred')
